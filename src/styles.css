@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html { 
+    background-image: linear-gradient(-180deg, #002900 0%, #101010 100%);
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(11, 128, 98)); */
+    height: 100%;
+}
+
+@font-face {
+    font-family: glastone;
+    src: url(assets/glastone.otf) format("opentype");
+}
+
+@font-face {
+    font-family: astrid;
+    src: url(assets/astrid.ttf) format("opentype");
+}
